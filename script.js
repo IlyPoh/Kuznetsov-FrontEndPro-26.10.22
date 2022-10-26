@@ -1,6 +1,6 @@
-var firstWord = prompt('Hi! To contunie you need to write 3 words. Type first word, please:');
-var secondWord = prompt('Type second word, please:');
-var thirdWord = prompt('Type third word, please:');
+const firstWord = prompt('Hi! To contunie you need to write 3 words. Type first word, please:', 'Nothing');
+const secondWord = prompt('Type second word, please:', 'Nothing');
+const thirdWord = prompt('Type third word, please:', 'Nothing');
 
 const numberForMessage = 32154;
 const convertedNumber = String(numberForMessage);
